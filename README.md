@@ -1,3 +1,8 @@
+
+to get the most accurate results, make sure to rebuild your coin daemon with the following value changed:
+P2P_LOCAL_WHITE_PEERLIST_LIMIT from 1000 to 10000
+in file /src/CryptoNoteConfig.h on line 108-ish
+
 Build the image using the following command
 
 ```bash

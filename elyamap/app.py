@@ -7,6 +7,13 @@ import json
 from datetime import datetime as dt
 
 import pandas as pd
+
+from elyamap import geoip
+
+# http://139.59.149.46:57778/peers
+# http://139.59.149.46:57778/getinfo
+
+
 from cachetools import cached, TTLCache
 
 refresh_interval = 10  # in seconds
