@@ -127,6 +127,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
+  background-color: #e5e8e6;
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
@@ -382,6 +383,26 @@ hr {
 .flex-center {
   display: flex;
   justify-content: center;
+}
+
+.indicator{
+    border:1px solid #C8D4E3;
+    border-radius: 3px;
+    background-color: white;
+    height:100px;
+    vertical-align:middle;
+}
+
+.indicator_text{
+    text-align: center;
+    float: left;
+    font-size: 15px;
+    }
+
+.indicator_value{
+    text-align:center;
+    color: #2a3f5f;
+    font-size: 35px;
 }
 
 /* Clearing
