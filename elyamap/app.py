@@ -6,7 +6,7 @@ import pandas as pd
 from elyamap import geoip
 
 refresh_interval = 30  # in seconds
-dfcountry = pd.read_csv('countryMap.txt', sep='\t')
+dfcountry = pd.read_csv('elyamap/countryMap.txt', sep='\t')
 
 app = dash.Dash(__name__)
 
