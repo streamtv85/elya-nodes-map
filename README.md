@@ -1,3 +1,6 @@
+### ElyaCoin Network Nodes Map
+
+the code is build for elyacoin pow which is a fork of Karbo. So it has HTTP API accessible (if enabled in config), and the list of connected peers can be found at http://localhost:57778/peers
 
 to get the most accurate results, make sure to rebuild your coin daemon with the following value changed:
 P2P_LOCAL_WHITE_PEERLIST_LIMIT from 1000 to 10000
