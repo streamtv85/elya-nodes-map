@@ -7,3 +7,4 @@ dash-core-components
 colorlover
 pandas
 pandas_datareader
+pylint
